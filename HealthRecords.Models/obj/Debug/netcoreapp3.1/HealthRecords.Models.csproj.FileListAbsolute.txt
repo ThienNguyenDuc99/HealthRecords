@@ -1,0 +1,8 @@
+E:\C#.NET\HealthRecords\HealthRecords.Models\bin\Debug\netcoreapp3.1\HealthRecords.Models.deps.json
+E:\C#.NET\HealthRecords\HealthRecords.Models\bin\Debug\netcoreapp3.1\HealthRecords.Models.dll
+E:\C#.NET\HealthRecords\HealthRecords.Models\bin\Debug\netcoreapp3.1\HealthRecords.Models.pdb
+E:\C#.NET\HealthRecords\HealthRecords.Models\obj\Debug\netcoreapp3.1\HealthRecords.Models.AssemblyInfoInputs.cache
+E:\C#.NET\HealthRecords\HealthRecords.Models\obj\Debug\netcoreapp3.1\HealthRecords.Models.AssemblyInfo.cs
+E:\C#.NET\HealthRecords\HealthRecords.Models\obj\Debug\netcoreapp3.1\HealthRecords.Models.dll
+E:\C#.NET\HealthRecords\HealthRecords.Models\obj\Debug\netcoreapp3.1\HealthRecords.Models.pdb
+E:\C#.NET\HealthRecords\HealthRecords.Models\obj\Debug\netcoreapp3.1\HealthRecords.Models.csprojAssemblyReference.cache

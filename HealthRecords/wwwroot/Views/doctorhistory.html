@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Doctor</title>
+    <link href="../Libraries/jquery-ui.min.css" rel="stylesheet" />
+    <link href="../CSS/menu.css" rel="stylesheet" />
+    <link href="../CSS/doctor.css" rel="stylesheet" />
+    <link href="../CSS/main.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="menu">
+        <div class="header-menu">
+            HeathRecords
+        </div>
+        <div class="main-menu">
+            <div class="sub-main-menu doctor homepage">Trang chủ </div>
+            <div class="sub-main-menu doctor history">Lịch sử khám bệnh </div>
+            <div class="sub-main-menu doctor schedule">Đặt lịch hẹn</div>
+        </div>
+    </div>
+    <div class="main-body">
+        <div class="header-main-body">
+            <div class="header-component doctor admin">Admin</div>
+            <div class="header-component doctor logout">Đăng xuất</div>
+        </div>
+        <div class="white-space">
+            Lịch sử khám bệnh
+        </div>
+        <div class="content-main-body">
+            <div class="toolbar">
+                <div class="sub-toolbar doctorhistory add">Thêm</div>
+                <div class="sub-toolbar doctorhistory edit">Sửa</div>
+                <div class="sub-toolbar doctorhistory delete">Xóa</div>
+            </div>
+        </div>
+        <div class="main-table doctor history">
+            <table>
+                <thead>
+                    <tr>
+                        <th doctorhistory="MedicalExaminationDetailId">
+                            <div class="filter-text">Mã số</div>
+                            <div class="under-thead">
+                                <input />
+                            </div>
+                        </th>
+                        <th doctorhistory="ExaminationDay">
+                            <div class="filter-text">Ngày khám</div>
+                            <div class="under-thead">
+                                <input />
+                            </div>
+                        </th>
+                        <th doctorhistory="UserName">
+                            <div class="filter-text">Mã bệnh nhân</div>
+                            <div class="under-thead">
+                                <input />
+                            </div>
+                        </th>
+                        <th doctorhistory="PatientName">
+                            <div class="filter-text">Tên bệnh nhân</div>
+                            <div class="under-thead">
+                                <input />
+                            </div>
+                        </th>
+                        <th doctorhistory="Diagnose">
+                            <div class="filter-text">Chẩn đoán</div>
+                            <div class="under-thead">
+                                <input />
+                            </div>
+                        </th>
+                        <th doctorhistory="Status">
+                            <div class="filter-text">Trạng thái</div>
+                            <div class="under-thead">
+                                <input />
+                            </div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="dialog doctorhistory add" title="Thêm lịch sử">
+        <div class="dialog-chil"><label>Mã lịch khám</label><input class="input mecode" /></div>
+        <div class="medicalexam">
+            <table>
+                <thead>
+                    <tr>
+                        <th medicalexam="MedicalExaminationCode">
+                            <div>Mã lịch khám</div>
+                        </th>
+                        <th medicalexam="ExaminationDay">
+                            <div>Ngày khám</div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        <div class="dialog-chil"><label>Thời gian</label><input class="input" /></div>
+        <div class="dialog-chil"><label>Chẩn đoán</label><input class="input" /></div>
+        <div class="dialog-chil1"><label>Đơn thuốc</label><textarea class="input1" rows="3" cols="40"></textarea></div>
+        <div class="dialog-chil1"><label>Ghi chú</label><textarea class="input1" rows="3" cols="40"></textarea></div>
+        <div class="dialog-chil">
+            <div class="input select">Trạng thái</div>
+            <div class="input-select">
+                <div class="input-select-chil">Khám lần đầu</div>
+                <div class="input-select-chil">Tái khám</div>
+            </div>
+        </div>
+        <button class="save">Lưu</button>
+    </div>
+    <div class="dialog doctorhistory edit" title="Sửa lịch sử">
+        <div class="dialog-chil"><label>Mã lịch khám</label><input class="input mecode" /></div>
+        <div class="medicalexam">
+            <table>
+                <thead>
+                    <tr>
+                        <th medicalexam="MedicalExaminationCode">
+                            <div>Mã lịch khám</div>
+                        </th>
+                        <th medicalexam="ExaminationDay">
+                            <div>Ngày khám</div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>abc</th>
+                        <th>abc</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="dialog-chil"><label>Thời gian</label><input class="input" /></div>
+        <div class="dialog-chil"><label>Chẩn đoán</label><input class="input" /></div>
+        <div class="dialog-chil1"><label>Đơn thuốc</label><textarea class="input1" rows="3" cols="40"></textarea></div>
+        <div class="dialog-chil1"><label>Ghi chú</label><textarea class="input1" rows="3" cols="40"></textarea></div>
+        <div class="dialog-chil">
+            <div class="input select">Trạng thái</div>
+            <div class="input-select">
+                <div class="input-select-chil">Khám lần đầu</div>
+                <div class="input-select-chil">Tái khám</div>
+            </div>
+        </div>
+        <button class="save">Lưu</button>
+    </div>
+    <div class="dialog doctorhistory delete" title="Xóa lịch sử">
+        <div>Bạn có thật sự muốn xóa không?</div>
+        <button class="save">Xóa</button>
+        <button class="exit">Thoát</button>
+    </div>
+    <script src="../Scripts/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../Libraries/jquery-ui.min.js"></script>
+    <script src="../Scripts/common/common.js"></script>
+    <script src="../Scripts/views/base.js"></script>
+    <script src="../Scripts/views/doctor.js"></script>
+    <script src="../Scripts/views/doctorhistory.js"></script>
+</body>
+</html>

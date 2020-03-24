@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Patient</title>
+    <link href="../Libraries/jquery-ui.min.css" rel="stylesheet" />
+    <link href="../CSS/main.css" rel="stylesheet" />
+    <link href="../CSS/menu.css" rel="stylesheet" />
+    <link href="../CSS/patient.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="menu">
+        <div class="header-menu">
+            HeathRecords
+        </div>
+        <div class="main-menu">
+            <div class="sub-main-menu patient homepage">Trang chủ </div>
+            <div class="sub-main-menu patient history">Lịch sử khám bệnh </div>
+            <div class="sub-main-menu patient schedule">Đặt lịch hẹn</div>
+        </div>
+    </div>
+    <div class="main-body">
+        <div class="header-main-body">
+            <div class="header-component patient admin">Admin</div>
+            <div class="header-component patient logout">Đăng xuất</div>
+        </div>
+        <div class="white-space">
+            Lịch hẹn khám
+        </div>
+        <div class="content-main-body">
+            <div class="toolbar">
+                <div class="sub-toolbar patientschedule add">Thêm</div>
+                <div class="sub-toolbar patientschedule edit">Sửa</div>
+                <div class="sub-toolbar patientschedule delete">Xóa</div>
+            </div>
+        </div>
+        <div class="main-table patient schedule">
+            <table>
+                <thead>
+                    <tr>
+                        <th patientschedule="MedicalExaminationCode">
+                            <div class="filter-text">Mã lịch hẹn</div>
+                            <div class="under-thead">
+                                <input />
+                            </div>
+                        </th>
+                        <th patientschedule="ExaminationDay">
+                            <div class="filter-text">Ngày hẹn</div>
+                            <div class="under-thead">
+                                <input />
+                            </div>
+                        </th>
+                        <th patientschedule="UserName">
+                            <div class="filter-text">Mã bác sĩ</div>
+                            <div class="under-thead">
+                                <input />
+                            </div>
+                        </th>
+                        <th patientschedule="DoctorName">
+                            <div class="filter-text">Tên bác sĩ</div>
+                            <div class="under-thead">
+                                <input />
+                            </div>
+                        </th>
+                        <th patientschedule="Note">
+                            <div class="filter-text">Ghi chú</div>
+                            <div class="under-thead">
+                                <input />
+                            </div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="dialog patientschedule add" title="Thêm lịch hẹn">
+        <div class="dialog-chil">
+            <label>Mã lịch hẹn</label><input class="input" />
+        </div>
+        <div class="dialog-chil"><label>Thời gian</label><input class="input" /></div>
+        <div class="dialog-chil">
+            <label>Mã bác sĩ</label><input class="input username" />
+            <div class="doctor">
+                <table>
+                    <thead>
+                        <tr>
+                            <th doctor="UserName">
+                                <div>Mã bác sĩ</div>
+                            </th>
+                            <th doctor="DoctorName">
+                                <div>Tên bác sĩ</div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="dialog-chil"><label>Tên bác sĩ</label><input class="input" /></div>
+        <div class="dialog-chil1"><label>Ghi chú</label><textarea class="input1" rows="4" cols="50"></textarea></div>
+        <button class="save">Lưu</button>
+    </div>
+    <div class="dialog patientschedule edit" title="Sửa lịch hẹn">
+        <div class="dialog-chil">
+            <label>Mã lịch hẹn</label><input class="input" />
+        </div>
+        <div class="dialog-chil"><label>Thời gian</label><input class="input" /></div>
+        <div class="dialog-chil">
+            <label>Mã bác sĩ</label><input class="input username" />
+            <div class="doctor">
+                <table>
+                    <thead>
+                        <tr>
+                            <th doctor="UserName">
+                                <div>Mã bác sĩ</div>
+                            </th>
+                            <th doctor="DoctorName">
+                                <div>Tên bác sĩ</div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="dialog-chil"><label>Tên bác sĩ</label><input class="input" /></div>
+        <div class="dialog-chil1"><label>Ghi chú</label><textarea class="input1" rows="4" cols="50"></textarea></div>
+        <button class="save">Lưu</button>
+    </div>
+    <div class="dialog patientschedule delete" title="Xóa lịch hẹn">
+        <div>Bạn có thật sự muốn xóa không?</div>
+        <button class="save">Xóa</button>
+        <button class="exit">Thoát</button>
+    </div>
+    <script src="../Scripts/libraries/jquery-3.4.1.min.js"></script>
+    <script src="../Libraries/jquery-ui.min.js"></script>
+    <script src="../Scripts/common/common.js"></script>
+    <script src="../Scripts/views/base.js"></script>
+    <script src="../Scripts/views/patient.js"></script>
+    <script src="../Scripts/views/patientschedule.js"></script>
+</body>
+</html>

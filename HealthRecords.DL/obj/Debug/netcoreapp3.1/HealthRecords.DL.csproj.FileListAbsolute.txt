@@ -1,0 +1,11 @@
+E:\C#.NET\HealthRecords\HealthRecords.DL\bin\Debug\netcoreapp3.1\HealthRecords.DL.deps.json
+E:\C#.NET\HealthRecords\HealthRecords.DL\bin\Debug\netcoreapp3.1\HealthRecords.DL.dll
+E:\C#.NET\HealthRecords\HealthRecords.DL\bin\Debug\netcoreapp3.1\HealthRecords.DL.pdb
+E:\C#.NET\HealthRecords\HealthRecords.DL\bin\Debug\netcoreapp3.1\HealthRecords.Models.dll
+E:\C#.NET\HealthRecords\HealthRecords.DL\bin\Debug\netcoreapp3.1\HealthRecords.Models.pdb
+E:\C#.NET\HealthRecords\HealthRecords.DL\obj\Debug\netcoreapp3.1\HealthRecords.DL.csprojAssemblyReference.cache
+E:\C#.NET\HealthRecords\HealthRecords.DL\obj\Debug\netcoreapp3.1\HealthRecords.DL.AssemblyInfoInputs.cache
+E:\C#.NET\HealthRecords\HealthRecords.DL\obj\Debug\netcoreapp3.1\HealthRecords.DL.AssemblyInfo.cs
+E:\C#.NET\HealthRecords\HealthRecords.DL\obj\Debug\netcoreapp3.1\HealthRecords.DL.csproj.CopyComplete
+E:\C#.NET\HealthRecords\HealthRecords.DL\obj\Debug\netcoreapp3.1\HealthRecords.DL.dll
+E:\C#.NET\HealthRecords\HealthRecords.DL\obj\Debug\netcoreapp3.1\HealthRecords.DL.pdb

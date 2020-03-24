@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Doctor</title>
+    <link href="../Libraries/jquery-ui.min.css" rel="stylesheet" />
+    <link href="../CSS/main.css" rel="stylesheet" />
+    <link href="../CSS/menu.css" rel="stylesheet" />
+    <link href="../CSS/doctor.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="menu">
+        <div class="header-menu">
+            HeathRecords
+        </div>
+        <div class="main-menu">
+            <div class="sub-main-menu doctor homepage">Trang chủ </div>
+            <div class="sub-main-menu doctor history">Lịch sử khám bệnh </div>
+            <div class="sub-main-menu doctor schedule">Đặt lịch hẹn</div>
+        </div>
+    </div>
+    <div class="main-body">
+        <div class="header-main-body">
+            <div class="header-component doctor admin">Admin</div>
+            <div class="header-component doctor logout">Đăng xuất</div>
+        </div>
+        <div class="white-space">
+            Lịch hẹn khám
+        </div>
+        <div class="content-main-body">
+            <div class="toolbar">
+                <div class="sub-toolbar doctorschedule add">Thêm</div>
+                <div class="sub-toolbar doctorschedule edit">Sửa</div>
+                <!--<div class="sub-toolbar doctorschedule view">Xem</div>-->
+                <div class="sub-toolbar doctorschedule delete">Xóa</div>
+            </div>
+        </div>
+        <div class="main-table doctor schedule">
+            <table>
+                <thead>
+                    <tr>
+                        <th doctorschedule="MedicalExaminationCode">
+                            <div class="filter-text">Mã lịch hẹn</div>
+                            <div class="under-thead">
+                                <input />
+                            </div>
+                        </th>
+                        <th doctorschedule="ExaminationDay">
+                            <div class="filter-text">Ngày hẹn</div>
+                            <div class="under-thead">
+                                <input />
+                            </div>
+                        </th>
+                        <th doctorschedule="UserName">
+                            <div class="filter-text">Mã bệnh nhân</div>
+                            <div class="under-thead">
+                                <input />
+                            </div>
+                        </th>
+                        <th doctorschedule="PatientName">
+                            <div class="filter-text">Tên bệnh nhân</div>
+                            <div class="under-thead">
+                                <input />
+                            </div>
+                        </th>
+                        <th doctorschedule="Note">
+                            <div class="filter-text">Ghi chú</div>
+                            <div class="under-thead">
+                                <input />
+                            </div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+        <div class="dialog doctorschedule add" title="Thêm lịch hẹn">
+            <div class="dialog-chil">
+                <label>Mã lịch hẹn</label><input class="input" />    
+            </div>
+            <div class="dialog-chil"><label>Thời gian</label><input class="input" /></div>
+            <div class="dialog-chil">
+                <label>Mã bệnh nhân</label><input class="input username" />
+                <div class="patient">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th patient="UserName"><div>Mã bệnh nhân</div>
+                                </th>
+                                <th patient="PatientName"><div>Tên bệnh nhân</div>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        <div class="dialog-chil"><label>Tên bệnh nhân</label><input class="input" /></div>
+        <div class="dialog-chil"><label>Ghi chú</label><textarea class="input1" rows="4" cols="35"></textarea></div>
+        <button class="save">Lưu</button>
+        </div>
+        <div class="dialog doctorschedule edit" title="Sửa lịch hẹn">
+            <div class="dialog-chil"><label>Mã lịch hẹn</label><input class="input" /> </div>
+            <div class="dialog-chil"><label>Thời gian</label><input class="input" /></div>
+            <div class="dialog-chil">
+                <label>Mã bệnh nhân</label><input class="input username" />
+                <div class="patient">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th patient="UserName">
+                                    <div>Mã bệnh nhân</div>
+                                </th>
+                                <th patient="PatientName">
+                                    <div>Tên bệnh nhân</div>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="dialog-chil"><label>Tên bệnh nhân</label><input class="input" /></div>
+            <div class="dialog-chil"><label>Ghi chú</label><textarea class="input1" rows="4" cols="35"></textarea></div>
+            <button class="save">Lưu</button>
+        </div>
+        <div class="dialog doctorschedule delete" title="Xóa lịch hẹn">
+            <div>Bạn có thật sự muốn xóa không?</div>
+            <button class="save">Xóa</button>
+            <button class="exit">Thoát</button>
+        </div>
+        <script src="../Scripts/libraries/jquery-3.4.1.min.js"></script>
+        <script src="../Libraries/jquery-ui.min.js"></script>
+        <script src="../Scripts/common/common.js"></script>
+        <script src="../Scripts/views/base.js"></script>
+        <script src="../Scripts/views/doctor.js"></script>
+        <script src="../Scripts/views/doctorschedule.js"></script>
+
+</body>
+</html>
