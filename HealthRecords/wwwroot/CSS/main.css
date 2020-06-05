@@ -1,0 +1,166 @@
+﻿body {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0;
+}
+
+
+
+.main-body {
+    background-color: #ffffff;
+    width: 85%;
+    height: 100%;
+    /*position: absolute;*/
+}
+
+.header-component {
+    border: 1px solid #ffffff;
+    height: 30px;
+    width: 220px;
+    position: absolute;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+.header-main-body {
+    /*background-color: #088A29;*/
+    background-color: #088A4B;
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+
+.content-main-body {
+    /*background-color: #088A29;*/
+    width: 98.5%;
+    height: 82%;
+    float: right;
+    margin-right: 10px;
+    /*position: relative;*/
+    /*top: 50px;*/
+    /*border: 0.5px solid #E6E6E6;*/
+    right: 0px;
+}
+
+.toolbar {
+    display: flex;
+    height: 50px;
+}
+
+tr{
+    cursor: pointer;
+}
+
+.selectTr{
+    background-color: #d9d9d9;
+}
+.dialog{
+    position: absolute;
+    display: none;
+    /*top: 250px;
+    left: 400px;*/
+}
+.show {
+    display: block !important;
+}
+
+td {
+    border-top: 0.5px solid #d9d9d9;
+}
+
+.main-content {
+}
+
+.main-content-chil{
+    font-size: 20px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.main-content-chil div{
+    width: 170px;
+}
+
+.dialog label{
+    width: 200px;
+    font-size: 18px;
+}
+
+.dialog input, .dialog .input1 {
+    position: absolute;
+    left: 200px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.dialog-chil{
+    margin-bottom: 10px;
+}
+
+.dialog-chil1 {
+    height: 65px;
+    margin-bottom: 10px;
+}
+
+.dialog .save{
+    position: absolute;
+    bottom: 20px;
+    right: 100px;
+}
+
+.input-select {
+    font-size: 20px;
+    border: 0.5px solid #808080;
+    width: 150px;
+    font-size: 20px;
+}
+
+.input.select {
+    font-size: 18px;
+    border: 0.5px solid #808080;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.input-select-chil {
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    border-bottom: 0.5px solid #808080;
+    width: 150px;
+    height: 30px;
+}
+
+.sub-toolbar {
+    margin: 10px;
+    width: 70px;
+    border-right: 1px solid #BDBDBD;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #088A4B;
+}
+
+.main-table {
+    /*background-color: #d9d9d9;*/
+    height: 72%;
+    width: 83.5%;
+    right: 12px;
+    position: absolute;
+    top: 160px;
+    overflow: auto;
+}
+
+.color-dis {
+    background-color: #BDBDBD !important;
+}

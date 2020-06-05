@@ -1,0 +1,121 @@
+﻿
+.header-component.patient {
+    position: absolute;
+    right: 100px;
+    top: 15px;
+}
+
+    .header-component.patient.logout {
+        /*position: absolute;*/
+        right: 100px;
+        top: 45px;
+        background-color: #088A4B;
+        display: none;
+    }
+
+/*.main-table {
+    background-color: #d9d9d9;
+    height: 72%;
+    width: 83.5%;
+    right: 12px;
+    position: absolute;
+    top: 160px;
+    overflow: auto;
+}*/
+
+    .main-table table {
+        width: 100%;
+    }
+
+
+    /*.main-table thead tr {
+        width: 100%;
+    }
+
+    .main-table tbody tr {
+        border: 1px solid #000000;
+    }*/
+    /*Căn chỉnh độ rộng cho th*/
+    .main-table thead tr th {
+        height: 55px;
+        width: 10%;
+        font-size: 18px;
+        border-right: 0.5px solid #d9d9d9;
+        position: sticky;
+        background-color: #d9d9d9;
+        top: 0;
+        border-left: 1px solid #BDBDBD;
+    }
+
+    .main-table tbody tr td {
+        height: 40px;
+        width: auto;
+        font-size: 18px;
+        border-bottom: 0.5px solid #d9d9d9;
+        padding: 0;
+    }
+
+.filter-text {
+    height: 25px;
+    top: 0px;
+    width: 100%;
+}
+
+.under-thead {
+    height: 30px;
+    bottom: 0px;
+    /*position: absolute;*/
+    width: 100%;
+    display: flex;
+}
+
+.filter-block {
+    width: 32px;
+    height: 30px;
+    /*border: 2px solid #F2F2F2;*/
+    background-color: #ffffff;
+}
+
+.under-thead input {
+    width: inherit;
+    outline: none;
+    border: 0;
+    margin-left: 2px;
+}
+
+
+
+/*.toolbar {
+    background-color: #d9d9d9;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    border-bottom: 1px solid #BDBDBD;
+}*/
+
+.white-space {
+    width: 99%;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 5px;
+}
+
+/*.sub-toolbar {
+    margin: 10px;
+    width: 70px;
+    border-right: 1px solid #BDBDBD;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #088A4B;
+}*/
+
+.dialog.patientschedule.add .doctor, .dialog.patientschedule.edit .doctor {
+    display: none;
+    position: absolute;
+    z-index: 10000;
+    background-color: #ffffff;
+    left: 100px;
+    border: 1px solid #BDBDBD;
+}
